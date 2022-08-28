@@ -14,19 +14,6 @@ Item* insert(int,Item*,list *);
 void Delete(Item*,list*);
 void FreeList(Item*);
 
-void main() {
-	int arr[7] = {23,4,7,11,29,45,3};
-//,1,2,3,4,5 };
-//	Item s,n,t;
-//	s.data = 5;
-//	s.next = &n;
-//	n.data = 3;
-//	n.next = &t;
-//	t.data = 7;
-//	t.next = NULL;
-	Print_List(build_int_list_from_arr(&arr,7));
-
-}
 //////////////////Print list////////////////////
 void Print_List(Item* lst) {
 	Item* curr_point;
